@@ -1,0 +1,140 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        nav ul li a:hover {
+            color: #3498db;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #444;
+            color: #fff;
+            padding: 60px 30px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background: #217dbb;
+        }
+
+        /* About Section */
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #fff;
+        }
+
+        .about img {
+            width: 250px;
+            border-radius: 8px;
+        }
+
+        .about-text {
+            max-width: 500px;
+        }
+
+        .about-text h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Skills */
+        .skills, .projects, .resume, .contact {
+            padding: 50px 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+
+        .skills ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        /* Projects */
+        .projects .project {
+            margin-bottom: 20px;
+        }
+
+        /* Resume */
+        .resume a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .resume a:hover {
+            background: #217dbb;
+        }
+
+        /* Contact */
+        .contact p {
+            margin: 8px 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
