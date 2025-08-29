@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header h1 {
+  font-size: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #3498db;
+}
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('img/bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+.hero h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.hero h2 span {
+  color: #3498db;
+}
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+}
+.btn {
+  background: #3498db;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #2980b9;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 50px;
+  background: white;
+  gap: 40px;
+}
+.about img {
+  width: 280px;
+  border-radius: 10px;
+}
+.about-text {
+  max-width: 600px;
+}
+.about-text h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.skills {
+  padding: 60px 50px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.skills h2 {
+  margin-bottom: 20px;
+}
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.skills li {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.projects {
+  padding: 60px 50px;
+  text-align: center;
+}
+.projects h2 {
+  margin-bottom: 20px;
+}
+.project {
+  background: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.resume {
+  padding: 60px 50px;
+  text-align: center;
+  background: #f9f9f9;
+}
+.contact {
+  padding: 60px 50px;
+  text-align: center;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img {
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
